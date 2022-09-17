@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    height: 90px;
+    width: auto;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 200px;
+    height: auto;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sec1{
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    width: auto;
+    justify-content: space-between;
+}
+
+.sec1 h1{
+    font-size: 52px;
+}
+
+.sec1 p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.btn{
+    width: auto;
+    padding: 20px;
+    background-color: #10032a;
+    border: none;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.sec2{
+    background-color: #ecebee;
+    padding: 25px 10px 25px 10px;
+    width: auto;
+}
+
+.sec2 h2{
+    text-align: center;
+    font-size: 32px;
+}
+
+.sec3{
+    padding: 50px 10px 50px 10px;
+    width: auto;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.sec3 h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.sec3 h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.sec3 .brands{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sec3 .brands img{
+    width: 200px;
+    height: auto;
+    transition: 0.5s;
+}
+
+.sec3 .brands img:hover{
+    width: 220px;
+    height: auto;
+}
+
+.sec3 .btn{
+    margin-top: 10px;
+}
+
+.sec4{
+    padding: 50px 10px 50px 10px;
+    width: auto;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.sec4 h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.sec4 .projects{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+}
+
+.sec4 .projects img{
+    width: 600px;
+    height: auto;
+}
+
+.sec5{
+    text-align: center;
+    align-items: center;
+    padding: 25px 10px 25px 10px;
+    justify-content: space-between;
+}
+
+.sec5 h2{
+    font-size: 40px;
+    text-align: center;
+}
+
+.services{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service-item{
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+
+.service-item i{
+    font-size: 50px;
+}
+
+.service-item h3{
+    font-size: 30px;
+}
+
+.service-item p{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.sec6{
+    padding: 50px 10px 50px 10px;
+    background-color: #10032a;
+    text-align: center;
+    width: auto;
+    color: #fff;
+}
+
+.sec6 h2{
+    font-size: 42px;
+}
+
+.sec6 h3{
+    font-size: 35px;
+}
+
+.sec6 button{
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 700;
+    width: 200px;
+    padding: 10px;
+}
+
+footer{
+    padding: 100px 10px 100px 10px;
+    /* align-items: center; */
+}
+
+.foot1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot2{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+footer ul li a:hover{
+    text-decoration: underline;
+}
